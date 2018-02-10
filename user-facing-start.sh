@@ -9,4 +9,4 @@ IPERF_SERVER_IP=$(cat "$file")
 sleep 120
 
 screen -d -m -S client iperf -c $IPERF_SERVER_IP -t 300
-dstat -T --cpu --mem --load --output report.csv 1 360
+screen -d -m -S stats dstat -T --cpu --mem --load --output report.csv 1 360
