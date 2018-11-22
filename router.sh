@@ -9,3 +9,4 @@ git clone https://github.com/onerimas/Final_exe_version_1.git webtaskclassifier
 cd webtaskclassifier/main/
 (echo $(echo "model_checkpoint_path: \"")$(pwd)$(echo "save_net.ckpt\"")) > checkpoint 
 (echo $(echo "all_model_checkpoint_paths: \"")$(pwd)$(echo "save_net.ckpt\"")) >> checkpoint 
+echo 1 > /proc/sys/net/ipv4/ip_forward
