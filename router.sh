@@ -10,3 +10,4 @@ cd webtaskclassifier/main/
 (echo $(echo "model_checkpoint_path: \"")$(pwd)$(echo "save_net.ckpt\"")) > checkpoint 
 (echo $(echo "all_model_checkpoint_paths: \"")$(pwd)$(echo "save_net.ckpt\"")) >> checkpoint 
 echo 1 > /proc/sys/net/ipv4/ip_forward
+sudo python3 -m pip install getmac
