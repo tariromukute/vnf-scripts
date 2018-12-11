@@ -1,10 +1,4 @@
-if [ $router_shared_int_network_floatingIp ]
-then
-    export routeip=$router_shared_int_network_floatingIp
-else
-    export routeip=$router_dummy_floatingIp
-fi
-
+export routeip=$router_dummy_ip
 
 echo $routeip
 echo "$routeip" > /root/router_ip
