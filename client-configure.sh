@@ -1,4 +1,4 @@
-export routeip=$router_dummy_ip
+export routeip=$router_dummy
 
 echo $routeip
 echo "$routeip" > /root/router_ip
