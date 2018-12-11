@@ -1,6 +1,6 @@
-routeip=$router_dummy
+routeip=$server_dummy
 echo routeip
 echo $routeip
-echo $router_dummy > /root/router_ip
+echo $server_dummy > /root/router_ip
 ip route replace default via $routeip dev eth0
 ip route
