@@ -29,7 +29,7 @@
       "vdu":[
         {
           "vm_image":[
-            "ubuntu-cloud-16.04.1-desktop"
+            "webtaskclassifier"
           ],
           "scale_in_out":1,
           "vnfc":[
